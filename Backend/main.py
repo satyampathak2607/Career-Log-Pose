@@ -60,3 +60,7 @@ def login_user(user: UserLogin,db: Session = Depends(get_db)):
 
 Base.metadata.create_all(bind=engine)
 
+@app.get("/")
+def root():
+    return {"message": "Career Log Pose is sailing! ⛵"}
+
