@@ -4,3 +4,5 @@ python-dotenv
 python-multipart 
 passlib[bcrypt]
  sqlmodel
+pydantic[email]
+pydantic
