@@ -1,7 +1,8 @@
-from utils.schemas import UserLogin, UserRegister
-from utils.hash import hash_password, verify_password
-from utils.database import SessionLocal, engine, Base
-from utils.models.user import User
+from Backend.utils.schemas import UserLogin, UserRegister
+from Backend.utils.hash import hash_password, verify_password
+from Backend.utils.database import SessionLocal, engine, Base
+from Backend.utils.models.user import User
+
 from fastapi import Depends
 from sqlalchemy.orm import Session
 
