@@ -6,3 +6,4 @@ passlib[bcrypt]
  sqlmodel
 pydantic[email]
 pydantic
+psycopg2
